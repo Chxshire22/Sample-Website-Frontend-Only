@@ -498,3 +498,9 @@ a {
 		margin-left: 6rem;
 	}
 }
+
+@media screen and (max-width:768px) {
+  .testimonial__image > .icon-container{
+    right: -30px;   
+  }
+}
