@@ -788,3 +788,37 @@ padding-bottom: calc(var(--padding-vertical) + 4rem);
 		scale: 1.1;
 	}
 }
+
+/* features block */
+
+.feature{
+	gap: 4rem;
+	margin: 12rem 0;
+}
+
+.feature:first-of-type{
+	margin-top: 6rem;
+}
+
+.feature__image{
+  width: 100%;
+}
+
+.feature__header{
+	text-align: center;
+}
+
+.feature__content{
+	text-align: left;
+	margin: 3rem 3rem;
+}
+
+.feature__content .feature__heading{
+	margin: 1rem 0;
+}
+
+@media screen and (min-width:768px) {
+	.feature:nth-of-type(even) .feature__content{
+		order: 2;
+	}
+}
